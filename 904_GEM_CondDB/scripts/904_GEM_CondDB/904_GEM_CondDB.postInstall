@@ -9,17 +9,17 @@ main(){
 
 //Creation of _UI DPs to allow connection of up to 100 remote uis
 	
-	for(int i=1; i<=100; i++) {
-		If (!dpExists (“_Ui_” + i))  dpCreate (“_Ui_”+I,”_Ui”);
-	}
+//	for(int i=1; i<=100; i++) {
+//		If (!dpExists (“_Ui_” + i))  dpCreate (“_Ui_”+I,”_Ui”);
+//	}
 
 	
 
 //RDB Configuration
   
-		fwRDBConfig_setUser("cms_gem_904_pvss");
+		fwRDBConfig_setUser("gem_904_cond");
 		fwRDBConfig_setHost("int2r");
-		fwRDBConfig_setPassword("904ConfDB"); 
+		fwRDBConfig_setPassword("904CondDB"); 
 
 		  
 
